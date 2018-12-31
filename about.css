@@ -1,4 +1,4 @@
-* {
+ {
   margin: 0;
   padding: 0;
 }
@@ -53,4 +53,5 @@ a:hover {
   background-color: white;
   color: black;
   opacity: 0.9;
-  tran
+  transition: 0.8s;
+}
