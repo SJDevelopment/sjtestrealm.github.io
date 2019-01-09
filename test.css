@@ -16,26 +16,26 @@ body {
 }
 .container .section:nth-child(1)
 {
-  background: url();
+  background: url(RPG banner.jpg);
   background-size: cover;
 }
 .container .section:nth-child(2)
 {
-  background: url();
+  background: url(uploads1513795555327-HorizonZeroDawnGraphics.jpg);
   background-size: cover;
 }
 .container .section:nth-child(3)
 {
-  background: url();
+  background: url(final_fantasy_xv_release_date_-_gameplay_screenshot_9.jpg);
   background-size: cover;
 }
 .container .section:nth-child(4)
 {
-  background: url();
+  background: url(Days-Gone.jpg);
   background-size: cover;
 }
 .container .section:nth-child(5)
 {
-  background: url();
+  background: url(03wo25gym7zmsh63w3ptzyrvy.jpg);
   background-size: cover;
 }
