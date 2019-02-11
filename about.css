@@ -14,7 +14,8 @@ a {
   padding-left: 18px;
   text-decoration: none;
   letter-spacing: 2px;
-  color: #fff
+  color: #fff;
+  text-align: center;
 }
 a:hover {
   background-color: white;
