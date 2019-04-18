@@ -2,7 +2,7 @@
 <html>
 <div id="page-wrap">
 
-    <h2>jQuery/PHP Chat</h2>
+    <h2>Chat</h2>
     
     <p id="name-area"></p>
     
@@ -15,5 +15,10 @@
 
 </div>
 <script>
+    function Chat () {
+    this.update = updateChat;
+    this.send = sendChat;
+    this.getState = getStateOfChat;
+}
 </script>
 </html>
