@@ -75,12 +75,7 @@
         }
      });
   });
-$(function() {
-//other stuff
-
-setInterval(function() { //use a function not a string
-chat.update();
-}, 1000);
-});
+ <body onload="setInterval('chat.update()', 1000)">
 </script>
+    
 </html>
