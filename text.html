@@ -137,8 +137,9 @@ function sendChat(message, nickname) {
         }
      });
   });
-</script>
+
 <?php
+
     $function = $_POST['function'];
     
     $log = array();
@@ -188,5 +189,6 @@ function sendChat(message, nickname) {
     }
     echo json_encode($log);
 ?>
+</script>
 <body onload="setInterval('chat.update()', 1000)">
 </html>
