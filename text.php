@@ -34,7 +34,7 @@ session_start();
 function loginForm(){
     echo'
     <div id="loginform">
-    <form action="index.php" method="post">
+    <form action="text.php" method="post">
         <p>Please enter your name to continue:</p>
         <label for="name">Name:</label>
         <input type="text" name="name" id="name" />
@@ -88,7 +88,7 @@ $(document).ready(function(){
 	//If user wants to end session
 	$("#exit").click(function(){
 		var exit = confirm("Are you sure you want to end the session?");
-		if(exit==true){window.location = 'text.html?logout=true';}		
+		if(exit==true){window.location = 'text.php?logout=true';}		
 	});
 });
  	//If user submits the form
