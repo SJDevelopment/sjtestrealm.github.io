@@ -1,7 +1,7 @@
 const gameState = {}
 
 function preload() {
-  this.load.image('codey', 'https://s3.amazonaws.com/codecademy-content/courses/learn-phaser/codey.png');
+  this.load.image('codey', 'https://raw.githubusercontent.com/Grimnir03/Grimnir03.github.io/master/logo/SJdevelopment%20img.png');
 }
 
 function create() {
